@@ -1,0 +1,29 @@
+{
+  "name": "typescript-for-javascript-developers",
+  "version": "1.0.0",
+  "description": "Udemyで公開中の「[ハンズオンで学ぶ TypeScript - JavaScript エンジニアのための TypeScript徹底入門](https://www.udemy.com/course/ts-for-js-developers/)」の公式リポジトリです。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiveIntoHacking/typescript-for-javascript-developers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiveIntoHacking/typescript-for-javascript-developers/issues"
+  },
+  "homepage": "https://github.com/DiveIntoHacking/typescript-for-javascript-developers#readme",
+  "devDependencies": {
+    "ts-node": "^8.5.4",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
