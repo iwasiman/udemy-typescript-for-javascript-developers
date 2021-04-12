@@ -6,7 +6,7 @@ let profiles: {} = {};
 // プロパティ 'name' は型 '{}' に存在しません。ts(2339
 //profiles.name = 'aaa';
 
-// {} [ index: typeforIndex ]: typeForValue }
+// { [ index: typeforIndex ]: typeForValue }
 let profile2: { [index: string]: string|number} = {};
 profile2.name1 = 'aaa'; // 幾らでも追加できる!
 profile2.name2 = 'bbb';
